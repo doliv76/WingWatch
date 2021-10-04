@@ -1,0 +1,109 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #E8A68E;
+}
+
+input[type="submit"] {
+    display: block;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size :100%;
+    border-color:#A0E7E5;
+    background-color :#ACC7A5;
+    color : #FFEACF;
+    width: 40%;
+    margin: 5px auto;
+}
+
+.nav-site {
+    background-color: #88B393;
+    overflow: hidden;
+    border-radius: 5px;;
+}
+
+.nav-site a {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    color:#FFEACF;
+    padding:10px;
+}
+
+.nav-site a:hover {
+    background-color: #E8A68E;
+}
+
+a.two {
+    font-weight: bold;
+}
+
+a.two:hover {
+    background-color:#88B393    
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#fileId {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+}
+
+h1,p,ol,h3{
+    color: #FFEACF;
+    text-align: center;
+}
+h3 {
+    font-size:110%;
+    font-weight: bold;
+}
+
+ol li {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+.upload-button {
+    margin-top:10px;
+    color: #FFEACF;
+    width: 50%;
+    background-color: #88B393;
+    display: inline-block;
+    cursor: pointer;
+    padding: 3px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+.upload-button label {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#result h3 {
+    color: #FFEACF;
+}
+
+ul li {
+    text-align: center;
+    list-style: none;
+    color: #FFEACF;
+    margin-bottom:20px;
+}
+ul li a {
+    text-decoration: none;
+    color:#FFEACF;
+    
+}

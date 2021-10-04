@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>WingWatch Bird Classifier</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+
+        <script src="{{ url_for('static', filename='javascript/javascript.js') }}"></script>
+    </head>
+    <body>
+        <nav class="nav-site">
+            <a class="two">WingWatch</a>
+            <a href="/">Classifier</a>
+            <a href="/catalog">Species Catalog</a>
+        </nav>
+        <h1>Species Catalog</h1>
+        {% for image in images %}
+            <img src="{{ url_for('static', filename='catalog/' + image) }}" title="{{image.rstrip('.jpg')}}" alt="{{image.rstrip('.jpg')}}">
+        {% endfor %}
+    </body>
+</html>
