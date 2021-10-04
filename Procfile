@@ -1,1 +1,1 @@
-web: gunicorn application:app
+web: gunicorn render_home:app
