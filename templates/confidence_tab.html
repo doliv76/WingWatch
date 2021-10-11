@@ -15,9 +15,8 @@
             <a href="/catalog">Species Catalog</a>
             <a href="/confidence_tab">Confidence Graph</a> 
         </nav>
-        <h1>Species Catalog</h1>
-        {% for image in images %}
-            <img src="{{ url_for('static', filename='catalog/' + image) }}" title="{{image.rstrip('.jpg')}}" alt="{{image.rstrip('.jpg')}}">
-        {% endfor %}
+        <h1>Top Confidence Scores By Bird Species</h1>
+        <img src="{{ url_for('static', filename='/images/fig_storage.png')}}" class="center">
+        <h3>Confidence Scores from the Last Image Prediction</h3>
     </body>
 </html>
